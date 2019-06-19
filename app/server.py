@@ -8,7 +8,10 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://drive.google.com/uc?export=download&id=1nTWwG8c9JzWrjh80SivHtcDhS6bG6naO'
+# stage-4.pth
+model_file_url = 'https://drive.google.com/uc?export=download&id=1-CQ3VOz8gVmIlkPYyxydcwYVkTv5chYm'
+# export.pkl
+# model_file_url = 'https://drive.google.com/uc?export=download&id=1nTWwG8c9JzWrjh80SivHtcDhS6bG6naO'
 model_file_name = 'model'
 classes = ['crow', 'downdog', 'mountain', 'warrior2']
 path = Path(__file__).parent
